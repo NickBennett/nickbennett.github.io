@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1997,12 +1997,12 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   display: none;
   top: 100%;
-  left: 0;
+  left: 100%;
   z-index: 99;
 }
 
 .nav-menu li {
-  position: relative;
+  position: right;
   white-space: nowrap;
 }
 
@@ -2017,12 +2017,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul ul {
   top: 0;
-  left: 100%;
+  right: 100%;
 }
 
 .nav-menu ul li {
-  min-width: 180px;
-  text-align: left;
+  min-width: 10px;
+  text-align: right;
 }
 
 /* Nav Menu Arrows */
@@ -2067,7 +2067,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > li {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav-menu ul {
@@ -2310,7 +2310,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/header-bg1.jpg) right;
   background-size: cover;
 }
 
@@ -2326,7 +2326,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   font-weight: 700;
   line-height: 1em;
-  margin-top: 20px;
+  margin-top: 0px;
+  text-align: left;
 }
 
 .banner-content h1 span {
